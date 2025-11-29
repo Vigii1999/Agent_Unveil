@@ -73,6 +73,7 @@ jobs:
         with:
           app-name: agent-unveil-app
           slot-name: ''
-          package: ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}/.
+          package: .
 
           
+
