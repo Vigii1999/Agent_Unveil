@@ -71,6 +71,8 @@ jobs:
         uses: azure/webapps-deploy@v3
         id: deploy-to-webapp
         with:
-          app-name: 'agent-unveil-app'
-          slot-name: 'Production'
+          app-name: agent-unveil-app
+          slot-name: ''
+          package: ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}/.
+
           
